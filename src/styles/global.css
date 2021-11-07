@@ -1,0 +1,48 @@
+@font-face {
+  font-family: TTNormsBold;
+  src: url(https://energotek.ru//local/templates/etech/layout/dist/css/../fonts/TTNorms-Bold.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap
+}
+
+@font-face {
+  font-family: TTNormsRegular;
+  src: url(https://energotek.ru//local/templates/etech/layout/dist/css/../fonts/TTNorms-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap
+}
+
+@font-face {
+  font-family: TTNormsMedium;
+  src: url(https://energotek.ru//local/templates/etech/layout/dist/css/../fonts/TTNorms-Medium.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap
+}
+
+@font-face {
+  font-family: TTNormsLight;
+  src: url(https://energotek.ru//local/templates/etech/layout/dist/css/../fonts/TTNorms-Light.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: TTNormsMedium, Arial, serif;
+  color: #616161;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+  line-height: 1.5;
+  background-color: #fff;
+  will-change: background-color;
+  -webkit-transition: background-color .55s;
+  -o-transition: background-color .55s;
+  transition: background-color .55s;
+  min-height: 100%;
+  padding:0
+}

@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    // "semi": "off",
+    // "typescript-eslint/semi": [
+    //   "warn"
+    // ],
+    // "typescript-eslint/no-empty-interface": [
+    //   "error",
+    //   {
+    //     "allowSingleExtends": true
+    //   }
+    // ],
+    // "@typescript-eslint/rule-name": "error"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ]
+}
